@@ -9,5 +9,9 @@ Installation
 pip install neuralnetpy
 ```
 
+.. code-block:: python
+
+    $ pip install neuralnetpy
+
 User Guide
 ----------
