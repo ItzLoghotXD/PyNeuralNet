@@ -1,17 +1,11 @@
-# NeuralNetPy 
+NeuralNetPy 
 ============
 
 NeuPy is a python library for prototyping and building neural networks. NeuPy uses Tensorflow as a computational backend for deep learning models.
 
-Installation
+## Installation
 ------------
-```python
-pip install neuralnetpy
-```
+$ pip install neuralnetpy
 
-.. code-block:: python
-
-    $ pip install neuralnetpy
-
-User Guide
+## User Guide
 ----------
