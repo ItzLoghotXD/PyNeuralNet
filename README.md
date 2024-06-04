@@ -5,7 +5,7 @@ NeuPy is a python library for prototyping and building neural networks. NeuPy us
 
 ## Installation
 ------------
-$ pip install neuralnetpy
+    $ pip install neuralnetpy
 
 ## User Guide
 ----------
