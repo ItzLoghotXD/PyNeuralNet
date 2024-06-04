@@ -1,11 +1,11 @@
-NeuralNetPy 
+PyNeuralNet 
 ============
 
-NeuPy is a python library for prototyping and building neural networks. NeuPy uses Tensorflow as a computational backend for deep learning models.
+PyNeuralNet is a python library for prototyping and building neural networks. PyNeuralNet uses PyTorch as a computational backend for deep learning models.
 
 ## Installation
 ------------
-    pip install neuralnetpy
+    pip install pyneuralnet
 
 ## User Guide
 ----------
