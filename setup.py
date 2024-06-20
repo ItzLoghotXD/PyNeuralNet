@@ -10,7 +10,7 @@ description = 'PyNeuralNet is a python library for prototyping and building neur
 
 setup(
     name='PyNeuralNet',
-    version='1.0.0',
+    version='1.1.11',
     author='ItzLoghotXD',
     author_email='loghot.gamerz.official@gmail.com',
     maintainer='ItzLoghotXD',
@@ -22,9 +22,12 @@ setup(
     packages=find_packages(),
     install_requires=[
         'torch==2.1.1',
-        'torchvision==0.16.1'
+        'torchvision==0.16.1',
+        'matplotlib==3.8.3',
+        'pillow==10.1.0'
     ],
-    url='https://github.com/ItzLoghotXD/neural-network-python',
-    download_url='https://pypi.org/project/neural-network-python/',
-    keywords=['neural', 'network', 'ai', 'neural network', 'algorithm', 'loghot']
+    url='https://github.com/ItzLoghotXD/PyNeuralNet/',
+    download_url='https://pypi.org/project/PyNeuralNet/',
+    keywords=['neural', 'network', 'ai', 'neural network', 'algorithm', 'loghot'],
+    
 )
