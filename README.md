@@ -24,7 +24,7 @@ Contributions are welcome! If you'd like to contribute to this project, follow t
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/ItzLoghotXD/PyNeuralNet/blob/main/LICENSE) - see the LICENSE file for details.
 
 ## Contact
 
