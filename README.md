@@ -15,7 +15,7 @@ Welcome to the PyNeuralNet repository! PyNeuralNet is a python library for proto
 ```python
 from pyneuralnet import train
 
-datasetloader = 'local'
+dataset_loader = 'local'
 root_dir = 'path/to/root_diractory'
 metadata_file = 'path/to/meta_info_file.txt'
 network = 'usrcnn'
@@ -25,12 +25,12 @@ train(datasetloader, metadata_file, root_dir, epochs=25, batch_size=batchs, netw
 
 ```
 - Parameters
--  datasetloader: Type of dataset loader. In this example, it is set to 'local'.
--  metadata_file: Path to the metadata file.
--  root_dir: Path to the root directory where the dataset is located.
--  network: Neural network architecture to be used (e.g., 'usrcnn').
--  epochs: Number of training epochs.
--  batch_size: Size of each training batch.
+   - datasetloader: Type of dataset loader. In this example, it is set to 'local'.
+   - metadata_file: Path to the metadata file.
+   - root_dir: Path to the root directory where the dataset is located.
+   - network: Neural network architecture to be used (e.g., 'usrcnn').
+   - epochs: Number of training epochs.
+   - batch_size: Size of each training batch.
 
 ## Contributing
 
