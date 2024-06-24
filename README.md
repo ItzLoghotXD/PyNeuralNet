@@ -6,14 +6,31 @@ Welcome to the PyNeuralNet repository! PyNeuralNet is a python library for proto
 ## Installation
 
 1. First, make sure you have Python installed on your system.
-2. Use this pip command to install the package
+2. Use this pip command to install the latest version of package.
    ```bash
    pip install pyneuralnet
    ```
 
 ## Usage
+```python
+from pyneuralnet import train
 
-- ..
+datasetloader = 'local'
+root_dir = 'path/to/root_diractory'
+metadata_file = 'path/to/meta_info_file.txt'
+network = 'usrcnn'
+batchs = 4
+
+train(datasetloader, metadata_file, root_dir, epochs=25, batch_size=batchs, network=network)
+
+```
+- Parameters
+-- datasetloader: Type of dataset loader. In this example, it is set to 'local'.
+-- metadata_file: Path to the metadata file.
+-- root_dir: Path to the root directory where the dataset is located.
+-- network: Neural network architecture to be used (e.g., 'usrcnn').
+-- epochs: Number of training epochs.
+-- batch_size: Size of each training batch.
 
 ## Contributing
 
