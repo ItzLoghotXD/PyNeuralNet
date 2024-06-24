@@ -10,7 +10,7 @@ description = 'PyNeuralNet is a python library for prototyping and building neur
 
 setup(
     name='PyNeuralNet',
-    version='1.1.12',
+    version='1.1.13',
     author='ItzLoghotXD',
     author_email='loghot.gamerz.official@gmail.com',
     maintainer='ItzLoghotXD',
